@@ -11,4 +11,4 @@ tech-job-analyzer/
 │   │   ├── data/            # Generated JSON files
 │   │   └── App.js
 │   └── package.json
-└── docs/                    # GitHub Pages deployment
+└── docs/                    # GitHub Pages deployment# Tech-Job-Analyser
