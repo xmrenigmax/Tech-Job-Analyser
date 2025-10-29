@@ -1,0 +1,52 @@
+name: Update Job Market Data
+
+on:
+  schedule:
+    # Run every Monday at 06:00 UTC (7 AM UK time)
+    - cron: '0 6 * * 1'
+  workflow_dispatch:    # Allow manual triggers
+  push:
+    branches: [ main ]
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+          
+      - name: Install Python dependencies
+        run: |
+          cd data-processing
+          pip install -r requirements.txt
+          
+      - name: Run data processing
+        run: |
+          cd data-processing
+          python process_data.py
+          
+      - name: Check for data changes
+        id: git-check
+        run: |
+          git add react-dashboard/src/data/
+          if git diff --staged --quiet; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Commit and push updated data
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "🤖 Auto-update: Latest UK job market data [$(date +%Y-%m-%d)]"
+          git push
