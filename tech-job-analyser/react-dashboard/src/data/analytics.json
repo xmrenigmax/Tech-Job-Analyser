@@ -1,0 +1,167 @@
+{
+  "language_salary": [
+    {
+      "LanguageWorkedWith": "Kubernetes",
+      "median": 85344,
+      "count": 8274
+    },
+    {
+      "LanguageWorkedWith": "Rust",
+      "median": 78713,
+      "count": 3755
+    },
+    {
+      "LanguageWorkedWith": "Go",
+      "median": 76543,
+      "count": 7817
+    },
+    {
+      "LanguageWorkedWith": "AWS",
+      "median": 75291,
+      "count": 12236
+    },
+    {
+      "LanguageWorkedWith": "Python",
+      "median": 73142,
+      "count": 11570
+    },
+    {
+      "LanguageWorkedWith": "Azure",
+      "median": 71822,
+      "count": 3369
+    },
+    {
+      "LanguageWorkedWith": "Java",
+      "median": 67851,
+      "count": 5078
+    },
+    {
+      "LanguageWorkedWith": "TypeScript",
+      "median": 65837,
+      "count": 14787
+    },
+    {
+      "LanguageWorkedWith": "Docker",
+      "median": 64222,
+      "count": 7925
+    },
+    {
+      "LanguageWorkedWith": "JavaScript",
+      "median": 62065,
+      "count": 7509
+    },
+    {
+      "LanguageWorkedWith": "Node.js",
+      "median": 61906,
+      "count": 6709
+    },
+    {
+      "LanguageWorkedWith": "React",
+      "median": 59672,
+      "count": 6336
+    },
+    {
+      "LanguageWorkedWith": "Angular",
+      "median": 58404,
+      "count": 5006
+    },
+    {
+      "LanguageWorkedWith": "PHP",
+      "median": 54780,
+      "count": 4771
+    },
+    {
+      "LanguageWorkedWith": "C#",
+      "median": 54651,
+      "count": 6676
+    }
+  ],
+  "location_salary": [
+    {
+      "Country": "London",
+      "median": 73020,
+      "count": 4667
+    },
+    {
+      "Country": "Remote",
+      "median": 61925,
+      "count": 3018
+    },
+    {
+      "Country": "Bristol",
+      "median": 59006,
+      "count": 2191
+    },
+    {
+      "Country": "Manchester",
+      "median": 57602,
+      "count": 5640
+    },
+    {
+      "Country": "Edinburgh",
+      "median": 55648,
+      "count": 3242
+    },
+    {
+      "Country": "Glasgow",
+      "median": 52599,
+      "count": 3378
+    },
+    {
+      "Country": "Birmingham",
+      "median": 52196,
+      "count": 2086
+    },
+    {
+      "Country": "Leeds",
+      "median": 52131,
+      "count": 2851
+    },
+    {
+      "Country": "Newcastle",
+      "median": 48846,
+      "count": 2687
+    },
+    {
+      "Country": "Cardiff",
+      "median": 48039,
+      "count": 3851
+    }
+  ],
+  "remote_work_stats": [
+    {
+      "index": "Fully remote",
+      "count": 45
+    },
+    {
+      "index": "Hybrid",
+      "count": 35
+    },
+    {
+      "index": "Office",
+      "count": 20
+    }
+  ],
+  "experience_salary": [
+    {
+      "level": "Graduate (0-1 yrs)",
+      "salary": 28000
+    },
+    {
+      "level": "Junior (1-3 yrs)",
+      "salary": 38000
+    },
+    {
+      "level": "Mid-level (3-5 yrs)",
+      "salary": 52000
+    },
+    {
+      "level": "Senior (5-8 yrs)",
+      "salary": 68000
+    },
+    {
+      "level": "Lead (8+ yrs)",
+      "salary": 82000
+    }
+  ]
+}

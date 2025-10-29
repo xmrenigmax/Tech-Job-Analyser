@@ -1,0 +1,40 @@
+{
+  "salary_trends": [
+    {
+      "year": 2020,
+      "average_salary": 48000,
+      "remote_percentage": 20
+    },
+    {
+      "year": 2021,
+      "average_salary": 52000,
+      "remote_percentage": 35
+    },
+    {
+      "year": 2022,
+      "average_salary": 58000,
+      "remote_percentage": 50
+    },
+    {
+      "year": 2023,
+      "average_salary": 62000,
+      "remote_percentage": 60
+    },
+    {
+      "year": 2024,
+      "average_salary": 65832,
+      "remote_percentage": 70
+    },
+    {
+      "year": 2025,
+      "average_salary": 64346,
+      "remote_percentage": 65
+    }
+  ],
+  "market_predictions": {
+    "remote_growth_2025": 78,
+    "ai_ml_demand_growth": 55,
+    "average_salary_2025": 72737,
+    "uk_tech_growth": 7.7
+  }
+}

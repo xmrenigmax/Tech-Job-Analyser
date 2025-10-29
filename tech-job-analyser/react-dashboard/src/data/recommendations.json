@@ -1,0 +1,111 @@
+{
+  "top_roi_skills": [
+    {
+      "LanguageWorkedWith": "TypeScript",
+      "median": 65837,
+      "demand_percentage": 13.2,
+      "roi_score": 87.06
+    },
+    {
+      "LanguageWorkedWith": "AWS",
+      "median": 75291,
+      "demand_percentage": 10.9,
+      "roi_score": 82.39
+    },
+    {
+      "LanguageWorkedWith": "Python",
+      "median": 73142,
+      "demand_percentage": 10.3,
+      "roi_score": 75.68
+    },
+    {
+      "LanguageWorkedWith": "Kubernetes",
+      "median": 85344,
+      "demand_percentage": 7.4,
+      "roi_score": 63.15
+    },
+    {
+      "LanguageWorkedWith": "Go",
+      "median": 76543,
+      "demand_percentage": 7.0,
+      "roi_score": 53.51
+    },
+    {
+      "LanguageWorkedWith": "Java",
+      "median": 67851,
+      "demand_percentage": 4.5,
+      "roi_score": 30.81
+    },
+    {
+      "LanguageWorkedWith": "Rust",
+      "median": 78713,
+      "demand_percentage": 3.4,
+      "roi_score": 26.43
+    },
+    {
+      "LanguageWorkedWith": "Azure",
+      "median": 71822,
+      "demand_percentage": 3.0,
+      "roi_score": 21.64
+    }
+  ],
+  "emerging_technologies": {
+    "AI/ML Engineering": {
+      "growth": 58,
+      "salary": 78000,
+      "demand": "Very High"
+    },
+    "Cybersecurity": {
+      "growth": 52,
+      "salary": 65000,
+      "demand": "High"
+    },
+    "Cloud Architecture": {
+      "growth": 45,
+      "salary": 82000,
+      "demand": "High"
+    },
+    "FinTech Development": {
+      "growth": 42,
+      "salary": 75000,
+      "demand": "Medium"
+    },
+    "GreenTech": {
+      "growth": 68,
+      "salary": 60000,
+      "demand": "Growing"
+    }
+  },
+  "uk_specific_insights": {
+    "in_demand_roles": [
+      "Cloud Engineer",
+      "Data Scientist",
+      "DevOps Specialist",
+      "Cybersecurity Analyst",
+      "Full Stack Developer",
+      "AI/ML Engineer"
+    ],
+    "high_growth_cities": [
+      {
+        "city": "Manchester",
+        "growth": 23,
+        "average_salary": 52000
+      },
+      {
+        "city": "Bristol",
+        "growth": 19,
+        "average_salary": 58000
+      },
+      {
+        "city": "Edinburgh",
+        "growth": 17,
+        "average_salary": 54000
+      },
+      {
+        "city": "Leeds",
+        "growth": 15,
+        "average_salary": 48000
+      }
+    ]
+  }
+}
