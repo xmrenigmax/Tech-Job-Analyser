@@ -1,0 +1,158 @@
+{
+  "language_salary": [
+    {
+      "LanguageWorkedWith": "Java",
+      "count": 513,
+      "median": 84216.85,
+      "mean": 84421.6,
+      "std": 37751.95
+    },
+    {
+      "LanguageWorkedWith": "Rust",
+      "count": 486,
+      "median": 83274.59,
+      "mean": 82491.38,
+      "std": 37419.78
+    },
+    {
+      "LanguageWorkedWith": "PHP",
+      "count": 513,
+      "median": 80846.73,
+      "mean": 81407.97,
+      "std": 37120.81
+    },
+    {
+      "LanguageWorkedWith": "TypeScript",
+      "count": 486,
+      "median": 79994.9,
+      "mean": 81548.98,
+      "std": 37843.59
+    },
+    {
+      "LanguageWorkedWith": "C++",
+      "count": 480,
+      "median": 79813.03,
+      "mean": 80617.44,
+      "std": 37968.31
+    },
+    {
+      "LanguageWorkedWith": "Go",
+      "count": 516,
+      "median": 79663.31,
+      "mean": 81453.72,
+      "std": 38329.53
+    },
+    {
+      "LanguageWorkedWith": "C#",
+      "count": 507,
+      "median": 79281.43,
+      "mean": 80987.8,
+      "std": 36716.36
+    },
+    {
+      "LanguageWorkedWith": "Python",
+      "count": 470,
+      "median": 78932.82,
+      "mean": 78687.94,
+      "std": 36758.85
+    },
+    {
+      "LanguageWorkedWith": "JavaScript",
+      "count": 533,
+      "median": 78782.39,
+      "mean": 80687.69,
+      "std": 39162.47
+    },
+    {
+      "LanguageWorkedWith": "Kotlin",
+      "count": 496,
+      "median": 77472.17,
+      "mean": 81010.04,
+      "std": 37760.19
+    }
+  ],
+  "remote_work_stats": [
+    {
+      "RemoteWork": "Office",
+      "proportion": 34.2
+    },
+    {
+      "RemoteWork": "Fully remote",
+      "proportion": 33.0
+    },
+    {
+      "RemoteWork": "Hybrid",
+      "proportion": 32.800000000000004
+    }
+  ],
+  "experience_salary": [
+    {
+      "YearsCodePro": "11-20",
+      "ConvertedCompYearly": 80827.5403146647
+    },
+    {
+      "YearsCodePro": "3-5",
+      "ConvertedCompYearly": 80803.56252365428
+    },
+    {
+      "YearsCodePro": "0-2",
+      "ConvertedCompYearly": 80778.31648401167
+    },
+    {
+      "YearsCodePro": "20+",
+      "ConvertedCompYearly": 80765.5576359221
+    },
+    {
+      "YearsCodePro": "6-10",
+      "ConvertedCompYearly": 76706.07449644982
+    }
+  ],
+  "location_salary": [
+    {
+      "Country": "Remote",
+      "median": 82558.28,
+      "count": 610
+    },
+    {
+      "Country": "Canada",
+      "median": 81530.57,
+      "count": 622
+    },
+    {
+      "Country": "United States",
+      "median": 81113.06,
+      "count": 610
+    },
+    {
+      "Country": "Germany",
+      "median": 80614.59,
+      "count": 597
+    },
+    {
+      "Country": "Netherlands",
+      "median": 80551.14,
+      "count": 682
+    },
+    {
+      "Country": "United Kingdom",
+      "median": 79783.22,
+      "count": 631
+    },
+    {
+      "Country": "India",
+      "median": 77091.35,
+      "count": 628
+    },
+    {
+      "Country": "Australia",
+      "median": 76153.1,
+      "count": 620
+    }
+  ],
+  "summary_stats": {
+    "total_respondents": 5000,
+    "average_salary": 80170.80484757504,
+    "top_technology": "Java",
+    "remote_percentage": 33.0
+  }
+}

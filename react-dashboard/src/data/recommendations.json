@@ -1,0 +1,135 @@
+{
+  "top_roi_skills": [
+    {
+      "LanguageWorkedWith": "Java",
+      "ConvertedCompYearly": 84216.85117463443,
+      "demand": 513,
+      "demand_percentage": 10.26,
+      "roi_score": 86.41
+    },
+    {
+      "LanguageWorkedWith": "JavaScript",
+      "ConvertedCompYearly": 78782.38673988935,
+      "demand": 533,
+      "demand_percentage": 10.66,
+      "roi_score": 83.98
+    },
+    {
+      "LanguageWorkedWith": "PHP",
+      "ConvertedCompYearly": 80846.7257765944,
+      "demand": 513,
+      "demand_percentage": 10.26,
+      "roi_score": 82.95
+    },
+    {
+      "LanguageWorkedWith": "Go",
+      "ConvertedCompYearly": 79663.31404625381,
+      "demand": 516,
+      "demand_percentage": 10.32,
+      "roi_score": 82.21
+    },
+    {
+      "LanguageWorkedWith": "Rust",
+      "ConvertedCompYearly": 83274.5884849781,
+      "demand": 486,
+      "demand_percentage": 9.72,
+      "roi_score": 80.94
+    },
+    {
+      "LanguageWorkedWith": "C#",
+      "ConvertedCompYearly": 79281.42846171376,
+      "demand": 507,
+      "demand_percentage": 10.14,
+      "roi_score": 80.39
+    },
+    {
+      "LanguageWorkedWith": "TypeScript",
+      "ConvertedCompYearly": 79994.89872743827,
+      "demand": 486,
+      "demand_percentage": 9.72,
+      "roi_score": 77.76
+    },
+    {
+      "LanguageWorkedWith": "Kotlin",
+      "ConvertedCompYearly": 77472.16992529608,
+      "demand": 496,
+      "demand_percentage": 9.92,
+      "roi_score": 76.85
+    },
+    {
+      "LanguageWorkedWith": "C++",
+      "ConvertedCompYearly": 79813.02756225638,
+      "demand": 480,
+      "demand_percentage": 9.6,
+      "roi_score": 76.62
+    },
+    {
+      "LanguageWorkedWith": "Python",
+      "ConvertedCompYearly": 78932.82392517084,
+      "demand": 470,
+      "demand_percentage": 9.4,
+      "roi_score": 74.2
+    }
+  ],
+  "emerging_technologies": {
+    "AI/ML": {
+      "growth": 45,
+      "salary": 120000,
+      "demand": "High"
+    },
+    "Rust": {
+      "growth": 38,
+      "salary": 115000,
+      "demand": "Medium"
+    },
+    "Go": {
+      "growth": 32,
+      "salary": 110000,
+      "demand": "High"
+    },
+    "TypeScript": {
+      "growth": 28,
+      "salary": 105000,
+      "demand": "Very High"
+    },
+    "Python": {
+      "growth": 25,
+      "salary": 100000,
+      "demand": "Very High"
+    }
+  },
+  "skill_combinations": [
+    {
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "AWS"
+      ],
+      "salary_premium": 25
+    },
+    {
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "salary_premium": 15
+    },
+    {
+      "skills": [
+        "Go",
+        "Docker",
+        "Kubernetes"
+      ],
+      "salary_premium": 20
+    },
+    {
+      "skills": [
+        "TypeScript",
+        "React",
+        "AWS"
+      ],
+      "salary_premium": 18
+    }
+  ]
+}
