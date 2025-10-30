@@ -18,11 +18,11 @@ const MarketInsights = ({ data }) => {
           Salary Trends
         </h3>
         <div className="space-y-3">
-          {data.salary_trends.map((trend, index) => (
+          {data.salary_trends?.map((trend, index) => (
             <div key={trend.year} className="flex justify-between items-center">
               <span className="text-gray-600">{trend.year}</span>
               <div className="text-right">
-                <div className="font-semibold text-gray-900">${trend.average_salary.toLocaleString()}</div>
+                <div className="font-semibold text-gray-900">£{trend.average_salary?.toLocaleString()}</div>
                 <div className="text-sm text-gray-500">{trend.remote_percentage}% remote</div>
               </div>
             </div>
@@ -39,15 +39,19 @@ const MarketInsights = ({ data }) => {
         <div className="space-y-2">
           <div className="flex justify-between">
             <span className="text-gray-600">Remote work adoption</span>
-            <span className="font-semibold text-green-600">{data.market_predictions.remote_growth_2025}%</span>
+            <span className="font-semibold text-green-600">{data.market_predictions?.remote_growth_2025}%</span>
           </div>
           <div className="flex justify-between">
             <span className="text-gray-600">AI/ML demand growth</span>
-            <span className="font-semibold text-green-600">+{data.market_predictions.ai_ml_demand_growth}%</span>
+            <span className="font-semibold text-green-600">+{data.market_predictions?.ai_ml_demand_growth}%</span>
           </div>
           <div className="flex justify-between">
             <span className="text-gray-600">Average salary</span>
-            <span className="font-semibold text-blue-600">${data.market_predictions.average_salary_2025.toLocaleString()}</span>
+            <span className="font-semibold text-blue-600">£{data.market_predictions?.average_salary_2025?.toLocaleString()}</span>
+          </div>
+          <div className="flex justify-between">
+            <span className="text-gray-600">UK tech growth</span>
+            <span className="font-semibold text-green-600">+{data.market_predictions?.uk_tech_growth}%</span>
           </div>
         </div>
       </div>

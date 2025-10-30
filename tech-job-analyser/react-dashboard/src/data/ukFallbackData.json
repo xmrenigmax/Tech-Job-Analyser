@@ -1,171 +1,346 @@
 {
   "summary": {
-    "total_respondents": 111818,
-    "average_salary": 67349,
-    "top_technology": "Kubernetes",
-    "remote_percentage": 45,
+    "total_respondents": 1020,
+    "average_salary": 65000,
+    "top_technology": "Azure",
+    "remote_percentage": 19,
     "currency": "£"
   },
   "metadata": {
-    "last_updated": "2025-10-29T23:28:08.741116",
+    "last_updated": "2025-10-30T00:15:26.701095",
     "data_sources": [
-      "UK Office for National Statistics",
-      "Stack Overflow UK Survey",
-      "Reed.co.uk Tech Jobs",
-      "CWJobs Market Analysis",
-      "LinkedIn UK Tech Report"
+      "Stack Overflow",
+      "IT Jobs Watch",
+      "Adzuna"
     ],
-    "total_data_points": 111818,
+    "total_data_points": 102,
     "region": "United Kingdom",
     "update_frequency": "weekly",
-    "uk_news": [
-      "London remains Europe's leading tech hub",
-      "UK tech sector grows 8.7% despite economic challenges",
-      "Remote work adoption continues to rise across UK"
-    ]
+    "data_quality": "real_time"
   },
   "analytics": {
     "language_salary": [
       {
-        "LanguageWorkedWith": "Kubernetes",
-        "median": 85344,
-        "count": 8274
-      },
-      {
-        "LanguageWorkedWith": "Rust",
-        "median": 78713,
-        "count": 3755
-      },
-      {
-        "LanguageWorkedWith": "Go",
-        "median": 76543,
-        "count": 7817
-      },
-      {
-        "LanguageWorkedWith": "AWS",
-        "median": 75291,
-        "count": 12236
-      },
-      {
-        "LanguageWorkedWith": "Python",
-        "median": 73142,
-        "count": 11570
-      },
-      {
         "LanguageWorkedWith": "Azure",
-        "median": 71822,
-        "count": 3369
-      },
-      {
-        "LanguageWorkedWith": "Java",
-        "median": 67851,
-        "count": 5078
-      },
-      {
-        "LanguageWorkedWith": "TypeScript",
-        "median": 65837,
-        "count": 14787
-      },
-      {
-        "LanguageWorkedWith": "Docker",
-        "median": 64222,
-        "count": 7925
-      },
-      {
-        "LanguageWorkedWith": "JavaScript",
-        "median": 62065,
-        "count": 7509
-      },
-      {
-        "LanguageWorkedWith": "Node.js",
-        "median": 61906,
-        "count": 6709
-      },
-      {
-        "LanguageWorkedWith": "React",
-        "median": 59672,
-        "count": 6336
-      },
-      {
-        "LanguageWorkedWith": "Angular",
-        "median": 58404,
-        "count": 5006
-      },
-      {
-        "LanguageWorkedWith": "PHP",
-        "median": 54780,
-        "count": 4771
+        "median": 116125,
+        "count": 2,
+        "demand": "Medium"
       },
       {
         "LanguageWorkedWith": "C#",
-        "median": 54651,
-        "count": 6676
+        "median": 79951,
+        "count": 2,
+        "demand": "Medium"
+      },
+      {
+        "LanguageWorkedWith": "Kubernetes",
+        "median": 79503,
+        "count": 1,
+        "demand": "Medium"
+      },
+      {
+        "LanguageWorkedWith": "Rust",
+        "median": 76657,
+        "count": 5,
+        "demand": "Medium"
+      },
+      {
+        "LanguageWorkedWith": "TypeScript",
+        "median": 70000,
+        "count": 57,
+        "demand": "High"
+      },
+      {
+        "LanguageWorkedWith": "Java",
+        "median": 67965,
+        "count": 72,
+        "demand": "High"
+      },
+      {
+        "LanguageWorkedWith": "Python",
+        "median": 66127,
+        "count": 33,
+        "demand": "High"
+      },
+      {
+        "LanguageWorkedWith": "Docker",
+        "median": 57395,
+        "count": 4,
+        "demand": "Medium"
+      },
+      {
+        "LanguageWorkedWith": "AWS",
+        "median": 55785,
+        "count": 10,
+        "demand": "High"
+      },
+      {
+        "LanguageWorkedWith": "JavaScript",
+        "median": 54402,
+        "count": 41,
+        "demand": "High"
+      },
+      {
+        "LanguageWorkedWith": "PHP",
+        "median": 52500,
+        "count": 2,
+        "demand": "Medium"
       }
     ],
     "location_salary": [
       {
-        "Country": "London",
-        "median": 73020,
-        "count": 4667
+        "Country": "Fleet",
+        "median": 130446,
+        "count": 1
       },
       {
-        "Country": "Remote",
-        "median": 61925,
-        "count": 3018
+        "Country": "Farringdon",
+        "median": 130000,
+        "count": 1
       },
       {
-        "Country": "Bristol",
-        "median": 59006,
-        "count": 2191
+        "Country": "Telford",
+        "median": 128700,
+        "count": 1
       },
       {
-        "Country": "Manchester",
-        "median": 57602,
-        "count": 5640
+        "Country": "Lowfield Heath",
+        "median": 114400,
+        "count": 1
       },
       {
-        "Country": "Edinburgh",
-        "median": 55648,
-        "count": 3242
+        "Country": "Normanton",
+        "median": 107250,
+        "count": 1
+      },
+      {
+        "Country": "Lower Holloway",
+        "median": 105000,
+        "count": 1
+      },
+      {
+        "Country": "Hammersmith",
+        "median": 100000,
+        "count": 1
+      },
+      {
+        "Country": "Porters Wood",
+        "median": 100000,
+        "count": 1
+      },
+      {
+        "Country": "Belfast",
+        "median": 100000,
+        "count": 1
+      },
+      {
+        "Country": "Edinburgh City Centre",
+        "median": 100000,
+        "count": 4
+      },
+      {
+        "Country": "Broadgate",
+        "median": 95000,
+        "count": 2
       },
       {
         "Country": "Glasgow",
-        "median": 52599,
-        "count": 3378
+        "median": 90986,
+        "count": 2
+      },
+      {
+        "Country": "Bracknell",
+        "median": 90000,
+        "count": 1
+      },
+      {
+        "Country": "South East London",
+        "median": 82500,
+        "count": 6
+      },
+      {
+        "Country": "The City",
+        "median": 79503,
+        "count": 7
       },
       {
         "Country": "Birmingham",
-        "median": 52196,
-        "count": 2086
+        "median": 75695,
+        "count": 2
+      },
+      {
+        "Country": "Burgess Hill",
+        "median": 75289,
+        "count": 2
+      },
+      {
+        "Country": "London",
+        "median": 74106,
+        "count": 20
+      },
+      {
+        "Country": "Croxley Green",
+        "median": 72188,
+        "count": 2
+      },
+      {
+        "Country": "Farnborough",
+        "median": 70720,
+        "count": 1
       },
       {
         "Country": "Leeds",
-        "median": 52131,
-        "count": 2851
+        "median": 70304,
+        "count": 2
       },
       {
-        "Country": "Newcastle",
-        "median": 48846,
-        "count": 2687
+        "Country": "Gloucestershire",
+        "median": 68211,
+        "count": 1
       },
       {
-        "Country": "Cardiff",
-        "median": 48039,
-        "count": 3851
+        "Country": "Whitechapel",
+        "median": 65000,
+        "count": 2
+      },
+      {
+        "Country": "Aldgate",
+        "median": 63529,
+        "count": 1
+      },
+      {
+        "Country": "Beith",
+        "median": 62528,
+        "count": 1
+      },
+      {
+        "Country": "Ladywood",
+        "median": 60000,
+        "count": 1
+      },
+      {
+        "Country": "Edinburgh",
+        "median": 60000,
+        "count": 1
+      },
+      {
+        "Country": "London Gatwick Airport",
+        "median": 60000,
+        "count": 1
+      },
+      {
+        "Country": "Widecombe-In-The-Moor",
+        "median": 59902,
+        "count": 1
+      },
+      {
+        "Country": "Uttoxeter",
+        "median": 55000,
+        "count": 1
+      },
+      {
+        "Country": "Wokingham",
+        "median": 55000,
+        "count": 1
+      },
+      {
+        "Country": "Bristol",
+        "median": 55000,
+        "count": 5
+      },
+      {
+        "Country": "Bournemouth",
+        "median": 54402,
+        "count": 1
+      },
+      {
+        "Country": "Milton",
+        "median": 52500,
+        "count": 2
+      },
+      {
+        "Country": "UK",
+        "median": 51870,
+        "count": 15
+      },
+      {
+        "Country": "Reigate",
+        "median": 50965,
+        "count": 1
+      },
+      {
+        "Country": "Burntwood",
+        "median": 50000,
+        "count": 1
+      },
+      {
+        "Country": "Manchester",
+        "median": 49933,
+        "count": 1
+      },
+      {
+        "Country": "Gloucester",
+        "median": 48020,
+        "count": 1
+      },
+      {
+        "Country": "Euston",
+        "median": 48015,
+        "count": 1
+      },
+      {
+        "Country": "Briton Ferry",
+        "median": 45881,
+        "count": 1
+      },
+      {
+        "Country": "Heathrow",
+        "median": 45000,
+        "count": 1
+      },
+      {
+        "Country": "Oxford",
+        "median": 44979,
+        "count": 1
+      },
+      {
+        "Country": "Yorkshire And The Humber",
+        "median": 42500,
+        "count": 1
+      },
+      {
+        "Country": "Manchester Science Park",
+        "median": 37251,
+        "count": 1
+      },
+      {
+        "Country": "Warwick",
+        "median": 36089,
+        "count": 1
+      },
+      {
+        "Country": "Kidderminster",
+        "median": 35000,
+        "count": 1
+      },
+      {
+        "Country": "Borough",
+        "median": 400,
+        "count": 1
       }
     ],
     "remote_work_stats": [
       {
         "index": "Fully remote",
-        "count": 45
+        "count": 19
       },
       {
         "index": "Hybrid",
-        "count": 35
+        "count": 26
       },
       {
         "index": "Office",
-        "count": 20
+        "count": 53
       }
     ],
     "experience_salary": [
@@ -195,51 +370,51 @@
     "top_roi_skills": [
       {
         "LanguageWorkedWith": "TypeScript",
-        "median": 65837,
-        "demand_percentage": 13.2,
-        "roi_score": 87.06
-      },
-      {
-        "LanguageWorkedWith": "AWS",
-        "median": 75291,
-        "demand_percentage": 10.9,
-        "roi_score": 82.39
-      },
-      {
-        "LanguageWorkedWith": "Python",
-        "median": 73142,
-        "demand_percentage": 10.3,
-        "roi_score": 75.68
-      },
-      {
-        "LanguageWorkedWith": "Kubernetes",
-        "median": 85344,
-        "demand_percentage": 7.4,
-        "roi_score": 63.15
-      },
-      {
-        "LanguageWorkedWith": "Go",
-        "median": 76543,
-        "demand_percentage": 7.0,
-        "roi_score": 53.51
+        "median": 70000,
+        "demand_percentage": 100,
+        "roi_score": 700.0
       },
       {
         "LanguageWorkedWith": "Java",
-        "median": 67851,
-        "demand_percentage": 4.5,
-        "roi_score": 30.81
+        "median": 67965,
+        "demand_percentage": 100,
+        "roi_score": 679.65
+      },
+      {
+        "LanguageWorkedWith": "JavaScript",
+        "median": 54402,
+        "demand_percentage": 82.0,
+        "roi_score": 446.1
+      },
+      {
+        "LanguageWorkedWith": "Python",
+        "median": 66127,
+        "demand_percentage": 66.0,
+        "roi_score": 436.44
+      },
+      {
+        "LanguageWorkedWith": "AWS",
+        "median": 55785,
+        "demand_percentage": 20.0,
+        "roi_score": 111.57
       },
       {
         "LanguageWorkedWith": "Rust",
-        "median": 78713,
-        "demand_percentage": 3.4,
-        "roi_score": 26.43
+        "median": 76657,
+        "demand_percentage": 10.0,
+        "roi_score": 76.66
       },
       {
         "LanguageWorkedWith": "Azure",
-        "median": 71822,
-        "demand_percentage": 3.0,
-        "roi_score": 21.64
+        "median": 116125,
+        "demand_percentage": 4.0,
+        "roi_score": 46.45
+      },
+      {
+        "LanguageWorkedWith": "Docker",
+        "median": 57395,
+        "demand_percentage": 8.0,
+        "roi_score": 45.92
       }
     ],
     "emerging_technologies": {
@@ -248,58 +423,21 @@
         "salary": 78000,
         "demand": "Very High"
       },
-      "Cybersecurity": {
+      "Cloud Security": {
         "growth": 52,
+        "salary": 72000,
+        "demand": "High"
+      },
+      "DevOps Engineering": {
+        "growth": 45,
         "salary": 65000,
         "demand": "High"
       },
-      "Cloud Architecture": {
-        "growth": 45,
-        "salary": 82000,
-        "demand": "High"
-      },
-      "FinTech Development": {
+      "Data Engineering": {
         "growth": 42,
-        "salary": 75000,
-        "demand": "Medium"
-      },
-      "GreenTech": {
-        "growth": 68,
-        "salary": 60000,
-        "demand": "Growing"
+        "salary": 68000,
+        "demand": "High"
       }
-    },
-    "uk_specific_insights": {
-      "in_demand_roles": [
-        "Cloud Engineer",
-        "Data Scientist",
-        "DevOps Specialist",
-        "Cybersecurity Analyst",
-        "Full Stack Developer",
-        "AI/ML Engineer"
-      ],
-      "high_growth_cities": [
-        {
-          "city": "Manchester",
-          "growth": 23,
-          "average_salary": 52000
-        },
-        {
-          "city": "Bristol",
-          "growth": 19,
-          "average_salary": 58000
-        },
-        {
-          "city": "Edinburgh",
-          "growth": 17,
-          "average_salary": 54000
-        },
-        {
-          "city": "Leeds",
-          "growth": 15,
-          "average_salary": 48000
-        }
-      ]
     }
   },
   "predictions": {
@@ -311,35 +449,40 @@
       },
       {
         "year": 2021,
-        "average_salary": 52000,
+        "average_salary": 54000,
         "remote_percentage": 35
       },
       {
         "year": 2022,
-        "average_salary": 58000,
+        "average_salary": 60000,
         "remote_percentage": 50
       },
       {
         "year": 2023,
-        "average_salary": 62000,
-        "remote_percentage": 60
+        "average_salary": 66000,
+        "remote_percentage": 65
       },
       {
         "year": 2024,
-        "average_salary": 65832,
-        "remote_percentage": 70
+        "average_salary": 72000,
+        "remote_percentage": 80
       },
       {
         "year": 2025,
-        "average_salary": 64346,
-        "remote_percentage": 65
+        "average_salary": 78000,
+        "remote_percentage": 80
+      },
+      {
+        "year": 2026,
+        "average_salary": 68250,
+        "remote_percentage": 80
       }
     ],
     "market_predictions": {
       "remote_growth_2025": 78,
       "ai_ml_demand_growth": 55,
-      "average_salary_2025": 72737,
-      "uk_tech_growth": 7.7
+      "average_salary_2025": 70200,
+      "uk_tech_growth": 8.7
     }
   }
 }

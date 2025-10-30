@@ -2,12 +2,13 @@ import React from 'react';
 import { Award, TrendingUp, Rocket } from 'lucide-react';
 
 const ExperienceAnalysis = ({ data }) => {
-  const experienceData = [
-    { level: 'Junior (0-2 yrs)', salary: 65000, growth: 'Entry', icon: <Rocket className="w-4 h-4" /> },
-    { level: 'Mid (3-5 yrs)', salary: 95000, growth: 'Rapid', icon: <TrendingUp className="w-4 h-4" /> },
-    { level: 'Senior (6-10 yrs)', salary: 130000, growth: 'Peak', icon: <Award className="w-4 h-4" /> },
-    { level: 'Lead (11-15 yrs)', salary: 160000, growth: 'Leadership', icon: <Award className="w-4 h-4" /> },
-    { level: 'Principal (15+ yrs)', salary: 190000, growth: 'Expert', icon: <Award className="w-4 h-4" /> }
+  // Use real data from the API, fallback to default if not available
+  const experienceData = data && data.length > 0 ? data : [
+    { level: 'Graduate (0-1 yrs)', salary: 28000, growth: 'Entry', icon: <Rocket className="w-4 h-4" /> },
+    { level: 'Junior (1-3 yrs)', salary: 38000, growth: 'Rapid', icon: <TrendingUp className="w-4 h-4" /> },
+    { level: 'Mid-level (3-5 yrs)', salary: 52000, growth: 'Peak', icon: <Award className="w-4 h-4" /> },
+    { level: 'Senior (5-8 yrs)', salary: 68000, growth: 'Leadership', icon: <Award className="w-4 h-4" /> },
+    { level: 'Lead (8+ yrs)', salary: 82000, growth: 'Expert', icon: <Award className="w-4 h-4" /> }
   ];
 
   return (
@@ -25,7 +26,7 @@ const ExperienceAnalysis = ({ data }) => {
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center gap-3">
                 <div className="p-2 bg-purple-100 rounded-lg text-purple-600">
-                  {item.icon}
+                  {item.icon || <Award className="w-4 h-4" />}
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">{item.level}</h3>
@@ -33,7 +34,7 @@ const ExperienceAnalysis = ({ data }) => {
                 </div>
               </div>
               <div className="text-right">
-                <div className="text-lg font-bold text-green-600">${item.salary.toLocaleString()}</div>
+                <div className="text-lg font-bold text-green-600">£{item.salary?.toLocaleString()}</div>
                 <div className="text-xs text-gray-500">avg. salary</div>
               </div>
             </div>

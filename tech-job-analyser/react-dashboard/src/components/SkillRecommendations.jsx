@@ -18,11 +18,11 @@ const SkillRecommendations = ({ data }) => {
           Highest ROI Skills
         </h3>
         <div className="space-y-3">
-          {data.top_roi_skills.slice(0, 5).map((skill, index) => (
+          {data.top_roi_skills?.slice(0, 5).map((skill, index) => (
             <div key={skill.LanguageWorkedWith} className="border border-gray-200 rounded-lg p-3 hover:border-purple-300 transition-colors">
               <div className="flex justify-between items-start mb-2">
                 <span className="font-semibold text-gray-900">{skill.LanguageWorkedWith}</span>
-                <span className="text-green-600 font-bold">${skill.median.toLocaleString()}</span>
+                <span className="text-green-600 font-bold">£{skill.median?.toLocaleString()}</span>
               </div>
               <div className="flex justify-between text-sm text-gray-500 mb-2">
                 <span>{skill.demand_percentage}% demand</span>
@@ -31,7 +31,7 @@ const SkillRecommendations = ({ data }) => {
               <div className="w-full bg-gray-200 rounded-full h-2">
                 <div 
                   className="bg-purple-600 h-2 rounded-full transition-all duration-500"
-                  style={{ width: `${(skill.roi_score / data.top_roi_skills[0].roi_score) * 100}%` }}
+                  style={{ width: `${(skill.roi_score / (data.top_roi_skills[0]?.roi_score || 1)) * 100}%` }}
                 ></div>
               </div>
             </div>
@@ -46,7 +46,7 @@ const SkillRecommendations = ({ data }) => {
           Emerging Technologies
         </h3>
         <div className="space-y-2">
-          {Object.entries(data.emerging_technologies).map(([tech, info]) => (
+          {data.emerging_technologies && Object.entries(data.emerging_technologies).map(([tech, info]) => (
             <div key={tech} className="flex justify-between items-center p-2 hover:bg-gray-50 rounded">
               <span className="font-medium text-gray-900">{tech}</span>
               <div className="text-right">

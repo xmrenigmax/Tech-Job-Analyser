@@ -7,11 +7,11 @@ import RemoteWorkStats from './RemoteWorkStats';
 import ExperienceAnalysis from './ExperienceAnalysis';
 import UKSalaryPredictor from './UKSalaryPredictor';
 
-// UK-focused data
-import ukFallbackData from '../data/ukFallBackData'
+// Import the real UK data instead of fallback data
+import ukData from '../data/ukFallbackData.json';
 
 const Dashboard = () => {
-  const data = ukFallbackData;
+  const data = ukData;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
@@ -31,6 +31,11 @@ const Dashboard = () => {
             </p>
             <div className="text-sm text-gray-500">
               Last updated: {new Date(data.metadata.last_updated).toLocaleDateString()}
+              {data.metadata.data_quality === 'real_time' && (
+                <span className="ml-2 bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">
+                  🔄 Live Data
+                </span>
+              )}
             </div>
           </div>
         </div>

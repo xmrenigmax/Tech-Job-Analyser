@@ -1,22 +1,31 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
-import { Code } from 'lucide-react';
 
 const SalaryChart = ({ data }) => {
   const colors = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#06b6d4', '#f97316', '#84cc16'];
 
   const CustomTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length) {
+      const skillData = payload[0].payload; // This contains the full data object
       return (
         <div className="bg-white p-4 rounded-lg shadow-lg border border-gray-200">
           <p className="font-semibold text-gray-900">{label}</p>
           <p className="text-blue-600">
-            ${payload[0].value.toLocaleString()}
+            £{payload[0].value?.toLocaleString()}
           </p>
           <p className="text-gray-500 text-sm">
             Median salary
           </p>
-    <div className="font-bold text-green-600">£{skill.median.toLocaleString()}</div>
+          {skillData.count && (
+            <p className="text-gray-500 text-sm">
+              Based on {skillData.count.toLocaleString()} job listings
+            </p>
+          )}
+          {skillData.demand && (
+            <p className="text-gray-500 text-sm">
+              Demand: {skillData.demand}
+            </p>
+          )}
         </div>
       );
     }
@@ -27,7 +36,7 @@ const SalaryChart = ({ data }) => {
     <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6">
       <div className="flex items-center gap-3 mb-6">
         <div className="p-2 bg-blue-100 rounded-lg">
-          <Code className="w-5 h-5 text-blue-600" />
+          <span className="text-2xl">💻</span>
         </div>
         <h2 className="text-xl font-semibold text-gray-900">Salary by Programming Language</h2>
       </div>
@@ -44,7 +53,7 @@ const SalaryChart = ({ data }) => {
               tick={{ fontSize: 12, fill: '#6b7280' }}
             />
             <YAxis 
-              tickFormatter={(value) => `$${value / 1000}k`}
+              tickFormatter={(value) => `£${value / 1000}k`}
               tick={{ fontSize: 12, fill: '#6b7280' }}
             />
             <Tooltip content={<CustomTooltip />} />
@@ -58,7 +67,8 @@ const SalaryChart = ({ data }) => {
       </div>
       
       <div className="mt-4 text-sm text-gray-500 text-center">
-        Based on {data.reduce((sum, item) => sum + item.count, 0).toLocaleString()} salary reports
+        Based on {data.reduce((sum, item) => sum + (item.count || 0), 0).toLocaleString()} salary reports
+        {data[0]?.source && ` • Source: ${data[0].source}`}
       </div>
     </div>
   );
